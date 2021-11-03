@@ -19,10 +19,8 @@ node server.js
 ```
 
 ### Current weather by city name
-```
-HTTP POST path: /current-weather/city-name
-HTTP POST JSON body eg: {"cityName":"Portland"}
-```
+**HTTP POST path:** /current-weather/city-name\
+**HTTP POST JSON body eg:** {"cityName":"Portland"}
 
 ### Current weather by zip code
 HTTP POST path: /current-weather/zip-code
