@@ -18,4 +18,4 @@ deactivate
 ```
 
 ## Implementation
-Secret key is randomly generated and stored in local text file in order to generate QR code and print relevant OTPs in separate commands. Storing secret key in local text file is reasonable to preserve secret key in such small scale project. To generate QR code, secret key is read which is used to generate QR code. To print relevant OTPs, secret key is read which is used to print relevant OTPs.
+Secret key is randomly generated and stored in local text file in order to preserve secret key between separate commands. In such small scale project, storing secret key in local text file is reasonable in order to preserve secret key. To generate QR code, secret key is read from local file which is used to generate QR code. To print relevant OTPs, secret key is read from local file which is used to print relevant OTPs.
