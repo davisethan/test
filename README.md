@@ -2,7 +2,7 @@
 
 # one time password
 
-## Run Code
+## Execution
 ```bash
 # Enter python virtual environment
 python3 -m venv env
@@ -10,7 +10,7 @@ source env/bin/activate
 # Install requirements
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-# Run code
+# Execution
 python submission.py --generate-qr
 python submission.py --get-otp
 # Exit python virtual environment
